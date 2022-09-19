@@ -1,0 +1,24 @@
+Operadores: Aritméticos, atribuição, relacionais, lógicos e ternário.
+
+Aritméticos: 5+2=7 5-2=3 5*2=10 5/2=2.5 5%2= 1 <resto da divisão, 5**2=25 <é a potencia 5² 
+
+ordem para os calculos
+
+1*() 2* ** 3* */% 4* +-
+
+Se por acaso o n receber ele mesmo mais algum numero podemos fazer dessa maneira, por exemplo:
+n+=4 (está dizendo que n recebe n + 4)
+n-=5 (está dizendo que n recebe n - 5)
+n*=4 (está dizendo que n recebe n * 4)
+n/=2 (está dizendo que n recebe n / 2)
+n**=2 (está dizendo que n recebe n + ²)
+n%=5 (está dizendo que n recebe n % 5)
+
+existe o incremento que é ++, faz  com que aumentamos em 1 a var ou menos 1 com --, por exemplo:
+
+var n = 10
+
+n++
+n=11
+n--
+n=9

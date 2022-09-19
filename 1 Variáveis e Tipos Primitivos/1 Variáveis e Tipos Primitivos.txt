@@ -1,0 +1,30 @@
+Existem tipos de primitivos, o 1* é numeros "Number", 2* Strings que são as palavras normais 3* Booleano que são verdadeiro ou falso, "true and false",
+as Strings elas tem que ser utilizadas com as aspas duplas, aspas simples ou crase, por exempo:
+
+var s1 = "Javascript"
+var s2 = 'Curso em vídeo'
+var s3 = `Guanabara`
+
+Esse s1 s2 s3 são identificadores, temos regras para poder utiliza-los, por exemplo:
+
+*Podem começar com letra, $ ou _ 
+
+*Não ´podem começar com números.
+
+*É possível usar letras ou números.
+
+*É possível usar acentos e símbolos.
+
+*Não podem conter espaços.
+
+*Não podem ser palavras reservadas. (usar por exemplo: var, function, array...)
+
+Data Types: (da para saber qual tipo é se utilizar o typeof, exemplo: typeof 6)
+Number = Infinity, NaN
+String
+Boolean
+null
+undefined
+object = Array
+function
+

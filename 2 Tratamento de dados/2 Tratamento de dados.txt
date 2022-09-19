@@ -1,0 +1,69 @@
+var nome = window.prompt("Qual é o seu nome?"); (criamos um prompt perguntando o nome)
+      alert("É um grande pazer em te conhecer, " + nome + "!"); (pegamos o resultado do prompt e criamos uma frase e concatenamos com a var nome)
+
+      var n1 = prompt("digite um numero: ");(Quando fazemos dessa maneira achamos que ele vai somar os numeros, só que o prompt transforma o numero inserido em strings)
+      var n2 = prompt("digite outro numero");
+      var s = n1 + n2; (precisamos converter string para numero)
+      alert("A soma dos valores è " + s);
+
+Number.parseInt(n) (Transforma string em numero inteiro)
+Number.parseFloat(n) (Transforma string em numero decimal)
+Number(n) (Faz com que o JavaScript faça a transformação automaticamente, tanto para inteiro quanto para decimal)
+
+var n1 = Number.parseInt(prompt("digite um numero: "));
+      var n2 = Number.parseInt(prompt("digite outro numero")); (assim transormamos a string em numero inteiro)
+      var s = n1 + n2;
+      alert("A soma dos valores è " + s);
+
+var n1 = Number(prompt("digite um numero: ")); (Assim faz com que ele tranforme automaticamente tanto para inteiro quanto para decimal)
+      var n2 = Number(prompt("digite outro numero"));
+      var s = n1 + n2;
+      alert("A soma dos valores è " + s);
+
+Para transformar Number para String:
+
+String(n) ou 
+n.toString()
+
+var n1 = Number(prompt("digite um numero: "));
+      var n2 = Number(prompt("digite outro numero"));
+      var s = n1 + n2;
+      alert("A soma dos valores è " + String(s); (Transforma o resultado em string)
+
+Formatando Strings
+
+Para concatenar de uma forma mais simples usamos o template string ` ${s}`, por exemplo:
+var s = "javaScript"
+`Eu estou aprendendo ${s}`, outro exemplo:
+
+var nome = "gustavo"
+var idade = 41
+var nota = 5.5
+
+`O aluno ${nome} com ${idade} anos tirou a nota ${nota}`
+
+s.length (quantos caracteres a string tem)
+s.toUpperCase() (tudo para "MAIÚSCULAS")
+S.toLowerCase() (tudo para "minúsculas")
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+var n1 = Number(prompt("digite um numero: "));
+      var n2 = Number(prompt("digite outro numero"));
+      var s = n1 + n2;
+      alert(`A soma entre ${n1} e ${n2} é igual a ${s}`); (concatenando usando o template string)
+
+var nome = prompt("qual é seu nome?");
+      document.write(`Seu nome tem ${nome.length} letras.<br>`); (Mostra quantas letras tem o nome)
+      document.write(`Seu nome em maiusculas é ${nome.toUpperCase()}<br>`); (DEIXA TODAS AS LETRAS EM MAIÚSCULAS)
+      document.write(`Seu nome em minusculas é ${nome.toLowerCase()}`); (deixa todas as letras em minuscula)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Formatando em Number
+var n1 = 1545.5
+n1.toFixed(2) (para poder o decimal ter 2 numeros)
+'1545.50'
+n1.toFixed(2).replace('.',',') (faz com que mude o . para a ,)
+'1545,50
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+'R$ 1.545,50'
+
+
+
