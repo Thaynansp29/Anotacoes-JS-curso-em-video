@@ -1,0 +1,30 @@
+DOM: Document object MODEL, conjunto de objetos dentro do navegador que vai da acesso aos componentes internos do site.
+
+Àrvore DOM:
+	|	
+	window
+	/|\
+location document history
+	  |
+	html
+	/\
+   head	  body
+  /|        |
+meta title  |
+	  //|\
+      h1 p p div
+	   |
+	 strong
+
+metodos de acesso:
+por marca, por id, por nome , por classe ,por seletor
+
+Marca: document.getElementsByTagName('') (pode ser p h1 div)
+
+ID: document.getElementByid('')
+
+NOME: document.getElementsByName('')
+
+CLASSES: document.getElementsByClassName('')
+
+SELETOR: querySelector('') ou querySelectorAll('')

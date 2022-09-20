@@ -1,0 +1,31 @@
+Operadores relacionais: > maior < menor >= maior igual <= menor igual ==igual != diferente
+operadores identidade: === identico (tem que ser o mesmo valor e mesmo tipo) !== desigual restrito (tem que ser diferente tanto no valor quanto no tipo)
+operadores lógicos : !: negação &&: conjunção ||: disjunção(ou)
+			
+true && true = true    !true = false (se diz uma coisa que não é verdadeira é false)
+true && false = false  !false = true (se diz uma coisa que não é falsa é verdadeira)
+false && true = false
+false && false = false
+
+true || true= true 
+true || false= true
+false || true= true
+false || false= true
+
+& precisa que ambas deem verdadeiro para ser verdade.
+|| precisa só que uma seja verdadeira para ele ser verdade.
+
+exemplo:
+idade >= 15 && idade <= 17 /se ler/ A idade está entre 15 e 17?
+estado == "RJ" || estado == "SP"/se ler/O estado é RJ ou SP?
+salário > 1500 && sexo != "M"/se ler/O salário é acima de 1500 e não é homem?
+
+ORDEM DE PRECEDÊNCIA:
+
+1* () ** / ...
+2*> < >= <=...
+3* !
+4* &&
+5* ||
+
+Operadores ternário: teste ? true : false exemplo:  média >=7.0 ? aprovado : reprovado
