@@ -1,0 +1,19 @@
+ Conceito básicamente é que quando precisar executar algum comando ele passar pelo if e else, se precisar ele executa se não ele não executa, por exemplo:
+
+if(condição){
+	true
+} else {
+
+	false
+}
+
+por exemplo: 
+
+var pais = "Brasil";
+console.log(`Vivendo em ${pais}`);
+if (pais == "Brasil") {
+  console.log("Você é Brasileiro");
+} else {
+  console.log("Você é Estrangeiro!");
+}
+ quando se quer pegar o que o usuario escreveu e colocar em uma condição temos que por .value depois da var criada
