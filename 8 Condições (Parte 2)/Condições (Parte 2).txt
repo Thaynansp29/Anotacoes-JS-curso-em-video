@@ -1,0 +1,70 @@
+condições aninhadas é quando tem uma condição dentro da outra, por exemplo:
+
+if(cond1){
+	bloco1 (se caso der negativo vai para a cond2 se não finaliza nesse bloco)
+} else{
+	if(cond2){  (mesma coisa se caso der negativo vai para o cond3 se não finaliza nesse bloco)
+	bloco2
+	}else {
+	bloco3
+	}
+}
+	EXEMPLO:
+var idade = 91;
+console.log(`Você ten ${idade} anos.`);
+if (idade < 16) {
+  console.log("Não vota");
+} else if (idade < 18 || idade > 65) {
+  console.log("Voto opcional");
+} else {
+  console.log("Voto obrigatório");
+}
+
+
+
+Condição Múltipla: é para condições que tenham varios valores, por exemplo:
+
+switch(expressão){
+	case valor 1:
+	...
+	break  (precisa sempre ter o break para que não execute os outros valores)
+	case valor 2:
+	...
+	break
+	case valor 3:
+	...
+	break
+	default:
+	...
+	break
+}
+	EXEMPLO:
+var agora = new Date();
+var diaSem = agora.getDay();
+console.log(diaSem);
+
+switch (diaSem) {
+  case 0:
+    console.log("Domingo");
+    break;
+  case 1:
+    console.log("Segunda Feira");
+    break;
+  case 2:
+    console.log("Terça Feira");
+    break;
+  case 3:
+    console.log("Quarta Feira");
+    break;
+  case 4:
+    console.log("Quinta Feira");
+    break;
+  case 5:
+    console.log("Sexta Feira");
+    break;
+  case 6:
+    console.log("Sabado");
+    break;
+  default:
+    console.log("[ERRO] Dia da semana invalido");
+}
