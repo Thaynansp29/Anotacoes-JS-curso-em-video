@@ -1,0 +1,29 @@
+Estruturas de repetição em JavaScript
+Uma estrutura de repetição é uma estrutura no qual permite ao programador executar um determinado bloco de código um determinado número de vezes, de acordo com sua necessidade ao escrever 
+o script.
+
+while(condição){
+	...
+} 		(enquanto for true ela vai ficar se repetindo até ser false)
+
+function comerPizza(){
+	while(temFatia){	(Enquanto houver fatia a function vai se repetir até acabar.)
+	comerFatia()
+	}
+}
+
+POR EXEMPLO:
+
+var c = 1;
+while (c <= 6) {
+  console.log(`Passo ${c}`);  (VAI FAZER COM QUE REPITA O PASSO 6 VEZES POR ESTÁ MAIOR IGUAL A 6, QUERENDO AUMANTAR SO MUDAR O VALOR DO WHILE)
+  c++;
+}
+
+Podemos também fazer com o DO (FAÇA), para obter o mesmo resultado, por exemplo:
+
+var c = 1;
+do {		(FAÇA)
+  console.log(`Passo ${c}`);
+  c++;
+} while (c <= 6); (ENQUANTO C FOR MENOR OU IGUAL A 6)
